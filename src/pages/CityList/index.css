@@ -1,0 +1,44 @@
+.citylist {
+  height: 100%;
+  padding-top: 45px;
+}
+.citylist .navbar {
+  margin-top: -45px;
+}
+.city .title {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+  padding:10px 20px;
+}
+.city .name {
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+  padding:10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.city-index {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 5px;
+  z-index: 1;
+  height: 90%;
+  box-sizing: border-box;
+  padding-top: 20px;
+  text-align: center;
+}
+.city-index .city-index-item {
+  flex: 1;
+}
+.city-index-item .index-active {
+  display: inline-block;
+  background-color: #21b97a;
+  color: #fff;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 100%;
+}

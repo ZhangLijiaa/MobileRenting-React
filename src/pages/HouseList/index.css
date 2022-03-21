@@ -1,0 +1,12 @@
+.header {
+  height: 45px;
+  padding: 0 10px;
+  background-color: #f6f5f6;
+}
+.icon-back {
+  font-size: 15px !important;
+  color: #000;
+}
+.houseItmes {
+  padding: 0 15px;
+}
